@@ -1,7 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './main.scss'
-import Product from './components/Product.tsx'
+import Product from './components/productCard/Product.tsx'
 
 createRoot(document.getElementById('root')!).render(
 	<StrictMode>
