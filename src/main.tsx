@@ -2,10 +2,20 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './main.scss'
 import Product from './components/productCard/Product.tsx'
+import Categories  from './components/categories/categories.tsx'
+
 
 createRoot(document.getElementById('root')!).render(
 	<StrictMode>
+		<div className="main">
+		<h3 className="title">Shop by Category</h3>
+		<Categories />
 		<div className="wrapper">
+
+			
+			
+			
+			
 			<Product
 				imgsrc="https://orebishopping.reactbd.com/static/media/spfFour.d005441cba54d7214bf7.webp"
 				title="Sun glasses"
@@ -28,7 +38,7 @@ createRoot(document.getElementById('root')!).render(
 
 
 
-
+		</div>
 		</div>
 	</StrictMode>,
 )

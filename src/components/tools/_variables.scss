@@ -14,3 +14,10 @@ $clr-gray900: #e5e7eb;
 
 /*   border radius */
 $radius: 0.5rem;
+
+.wrapper {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(8rem, 22rem));
+	gap: 2rem;
+	justify-content: center;
+ }
