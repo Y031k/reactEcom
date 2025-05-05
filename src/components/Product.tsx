@@ -32,7 +32,7 @@ function Product({imgsrc, title, descrption, price}: ProductCard) {
 					<h2 className="card__price">{moneyFormatter.format(price)}</h2>
 					<button onClick={
 						()=>{
-						console.log( 'Product', {title}, 'added to cart')
+						console.log( 'Product', {title}.title, 'added to cart')
 						}
 					}className="card__btn">
 					Add to basket
