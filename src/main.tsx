@@ -8,12 +8,17 @@ import Categories  from './components/categories/categories.tsx'
 createRoot(document.getElementById('root')!).render(
 	<StrictMode>
 		<div className="container">
-			
 			<div className="header">
+				{/* header */}
+			</div>
 			<div className="sidebar">
-			<div className="main">
-			{/* <h3 className="title">Shop by Category</h3> */}
+
+			<h3 className="title">Shop by Category</h3>
 			<Categories />
+			</div>
+
+			
+			<div className="main">
 			<div className="wrapper">
 			<Product
 				imgsrc="https://orebishopping.reactbd.com/static/media/spfFour.d005441cba54d7214bf7.webp"
@@ -34,12 +39,9 @@ createRoot(document.getElementById('root')!).render(
 				price={120.00}
 			/>
 
-
+</div>
 
 </div>
 </div>
-		</div>
-		</div>
-		</div>
 	</StrictMode>,
 )
