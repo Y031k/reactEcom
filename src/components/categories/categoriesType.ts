@@ -1,10 +1,3 @@
-// export interface categoriesType {
-// 	categoryType[]
-// }
-
-
-
-
 
 export type categoryType = {
 	slug: string,

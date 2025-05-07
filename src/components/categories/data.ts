@@ -3,7 +3,7 @@ import { categoriesTypes } from "./categoriesType"
 export const categories: categoriesTypes = [
 			{
 			  "slug": "beauty",
-			  "name": "Beauty",
+			  "name": "Test",
 			  "url": "https://dummyjson.com/products/category/beauty"
 			},
 			{

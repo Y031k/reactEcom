@@ -1,22 +1,26 @@
 // import React from 'react';
 import './categories.scss';
-import { categories } from './data';
-import { useEffect } from 'react';
+// import { categories } from './data';
+import { useEffect, useState } from 'react';
+import { categoriesTypes } from './categoriesType';
 
 function Categories() {
-	// fetch('https://dummyjson.com/products/categories')
-	// .then(res => res.json())
-	// .then(console.log);
 
+	const [categories, setCategories] = useState<categoriesTypes>([]);
 
+	useEffect(() => {
+		fetch('https://dummyjson.com/products/categories')
+			.then(res => res.json())
+			.then((data: categoriesTypes) => {
+				setCategories(data);
+			})
+	}, []);
 
 	return (
 		 <ul>
-{
-	categories.map((category) => (
-		<li key={category.name}> {category.name}</li>  
-	))
-}
+   { categories.map((category) => (
+		<li>{category.name}</li>  
+	))}
 		</ul>
 	)
 }
