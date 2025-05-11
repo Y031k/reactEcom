@@ -3,23 +3,26 @@ import { createRoot } from 'react-dom/client'
 import './main.scss'
 import Product from './components/productCard/Product.tsx'
 import Categories  from './components/categories/categories.tsx'
+import Button from './components/button/button.tsx'
 
 
 createRoot(document.getElementById('root')!).render(
 	<StrictMode>
 		<div className="container">
 			<div className="header">
+
+			<Button />
 				{/* header */}
 			</div>
-			<div className="sidebar">
+			{/* <div className="sidebar">
 
 			<h3 className="title">Shop by Category</h3>
 			<Categories />
-			</div>
+			</div> */}
 
 			
 			<div className="main">
-			<div className="wrapper">
+			{/* <div className="wrapper">
 			<Product
 				imgsrc="https://orebishopping.reactbd.com/static/media/spfFour.d005441cba54d7214bf7.webp"
 				title="Sun glasses"
@@ -39,7 +42,7 @@ createRoot(document.getElementById('root')!).render(
 				price={120.00}
 			/>
 
-</div>
+</div> */}
 
 </div>
 </div>
