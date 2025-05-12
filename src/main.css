@@ -1,12 +1,12 @@
-@import './components/tools/variables';
-@import './components/productCard/Product.scss';
+@import './components/tools/_variables.css';
+@import './components/productCard/Product.css'
 
 
 *,
 *::before,
 *::after {
   box-sizing: border-box;
-
+  /* border-radius: 0.5rem; */
   margin: 0;
   padding: 0;
 }
@@ -17,8 +17,15 @@ body {
 }
 
 
-.title{
+.title {
 	margin-bottom: 5vh;
+}
+
+.wrapper {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(8rem, 22rem));
+	gap: 2rem;
+	justify-content: center;
 }
 
 .container {
@@ -36,21 +43,21 @@ body {
 }
 
 .nav {
-//   background: #a7ffeb;
+/* background: #a7ffeb; */
   grid-area: nav;
   border-radius: var(--main-radius);
   padding-top: var(--main-padding);
 }
 
 .main {
-//   background: #84ffff;
+/* background: #84ffff; */
   grid-area: main;
   border-radius: var(--main-radius);
   padding-top: var(--main-padding);
 }
 
 .sidebar {
-//   background: #18ffff;
+/* background: #18ffff; */
   grid-area: sidebar;
   display: flex;
   flex-wrap: wrap;
