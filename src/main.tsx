@@ -1,8 +1,8 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './main.scss'
-import Product from './components/productCard/Product.tsx'
-import Categories  from './components/categories/categories.tsx'
+import './main.css'
+// import Product from './components/productCard/Product.tsx'
+// import Categories  from './components/categories/categories.tsx'
 import Button from './components/button/button.tsx'
 
 
