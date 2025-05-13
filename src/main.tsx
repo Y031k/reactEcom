@@ -1,9 +1,9 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './main.css'
-import Product from './components/productCard/Product.tsx'
-import Categories  from './components/categories/categories.tsx'
-import Button from './components/button/button.tsx'
+import './main.css';
+import Product from './components/productCard/Product.tsx';
+import Categories  from './components/categories/categories.tsx';
+import Button from './components/button/button.tsx';
 
 
 createRoot(document.getElementById('root')!).render(
@@ -12,7 +12,10 @@ createRoot(document.getElementById('root')!).render(
 			<div className="header">
 
 			<Button />
+			<br></br>
 				{/* header */}
+
+				
 			</div>
 			<div className="sidebar">
 
