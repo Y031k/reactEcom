@@ -1,5 +1,5 @@
 // import React from 'react';
-import './categories.scss';
+import './categories.css';
 // import { categories } from './data';
 import { useEffect, useState } from 'react';
 import { categoriesTypes } from './categoriesType';

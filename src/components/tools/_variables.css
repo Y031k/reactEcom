@@ -1,8 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
 
+<<<<<<< HEAD
 /*   colors */
 
 .color{
+=======
+:root {
+
+/*   colors */
+>>>>>>> ae69b5c5e9c80357146da26ffcc09a6dabc26bc8
 --clr-primary: #d50000;
 --clr-gray100: #f9fbff;
 --clr-gray150: #f4f6fb;
@@ -12,7 +18,24 @@
 --clr-gray500: #4f546c;
 --clr-gray600: #2a324b;
 --clr-gray700: #161d34;
+<<<<<<< HEAD
 --gray900: #e5e7eb;
 }
 
 
+=======
+--clr-gray900: #e5e7eb;
+
+/*   border radius */
+
+--main-radius: 0.5rem;
+
+}
+
+.wrapper {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(8rem, 22rem));
+	gap: 2rem;
+	justify-content: center;
+ }
+>>>>>>> ae69b5c5e9c80357146da26ffcc09a6dabc26bc8

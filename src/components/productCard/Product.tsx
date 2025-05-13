@@ -1,4 +1,4 @@
-import './Product.scss'
+import './Product.css'
 
 
 /*   local currency format */
