@@ -13,12 +13,6 @@
 --clr-gray500: #4f546c;
 --clr-gray600: #2a324b;
 --clr-gray700: #161d34;
-<<<<<<< HEAD
---gray900: #e5e7eb;
-}
-
-
-=======
 --clr-gray900: #e5e7eb;
 --clr-primary-wite: #ffffff;
 
@@ -44,4 +38,3 @@
 	gap: 2rem;
 	justify-content: center;
  }
->>>>>>> ae69b5c5e9c80357146da26ffcc09a6dabc26bc8
