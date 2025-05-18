@@ -92,35 +92,36 @@
 
 /*   size props */
 .lg {
-    width: 171px;
+	width: 100%;
+    /* width: 171px; */
     height: 56px;
     font-size: 1.125em;
     padding: 16px 24px;
 }
 
 .md {
-    width: 156px;
+    /* width: 156px; */
     height: 48px;
     font-size: 1em;
     padding: 12px 20px;
 }
 
 .sm {
-    width: 142px;
+    /* width: 142px; */
     height: 40px;
     font-size: 0.875em;
     padding: 8px 16px;
 }
 
 .xs {
-    width: 127px;
+    /* width: 127px; */
     height: 32px;
     font-size: 0.75em;
     padding: 4px 12px;
 }
 
 .tn {
-    width: 97px;
+    /* width: 97px; */
     height: 24px;
     font-size: 0.625em;
     padding: 2px 8px;

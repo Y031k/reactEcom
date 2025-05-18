@@ -1,5 +1,5 @@
 import './Product.css'
-
+import Button from '../button/button.tsx'
 
 /*   local currency format */
 export const moneyFormatter = Intl.NumberFormat('en-ES', {
@@ -26,17 +26,35 @@ function Product({imgsrc, title, descrption, price}: ProductCard) {
 	  <>
 			<div className="card">
 				<div className="card__body">
-					<img src={imgsrc}/>
+					<img className='card__image' src={imgsrc}/>
 					<h2 className="card__title">{title}</h2>
 					<p className="card__description">{descrption}</p>
 					<h2 className="card__price">{moneyFormatter.format(price)}</h2>
-					<button onClick={
+			<div className="card__btn">
+				<Button
+					type='primary'
+					size='lg'
+					text='Button'
+				/>
+			</div>	
+			<div className="card__btn">
+				<Button
+					type='outline'
+					size='lg'
+					text='Button'
+				/>
+			</div>	
+
+
+
+
+					{/* <button onClick={
 						()=>{
 						console.log( 'Product', {title}.title, 'added to cart')
 						}
 					}className="card__btn">
 					Add to basket
-					</button>
+					</button> */}
 				</div>
 			</div>
 	  </>

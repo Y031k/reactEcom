@@ -1,17 +1,31 @@
+import style from './button.module.css';
+
+type ButtonSize = 'lg' | 'md' | 'xs' | 'tn';
+type ButtonType = 'primary' | 'outline' | 'tonal';
 
 type ButtonProps = {
-	type?: string;
-	size?: string;
+	type?: ButtonType;
+	size?: ButtonSize;
 	text?: string;
 }
 
 function Button({type, size, text}: ButtonProps) {
+		const classes = [
+			style.btn,
+			style[type || 'primary'],
+			style[size || 'md']
+		]
+		.join(' ');
 
-	return (
-		<button className={`btn ${type ? type : ''} ${size ? size : ''}`.trim()}> 
-			&#129120; &#160; {text} &#160;&#129122;
-		</button>
-	);
+		return (
+
+			<button className={classes}>
+				{text}
+			</button>
+
+		)
+	
+	
 }
 
 export default Button
