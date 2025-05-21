@@ -25,9 +25,10 @@ createRoot(document.getElementById('root')!).render(
 				title="Sun glasses"
 				descrption="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
 				price={200.00}
-				ButtonType='primary'
-				ButtonSize='lg'
-				ButtonText='Add to cart'
+				btnstate={0}
+				// ButtonType='primary'
+				// ButtonSize='lg'
+				// ButtonText='Add to cart'
 			/>
 
 			<Product
@@ -35,12 +36,14 @@ createRoot(document.getElementById('root')!).render(
 				// title="Funny Toy"
 				// descrption="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
 				price={60.00}
+				btnstate={1}
 			/>
 			<Product
 				imgsrc="https://orebishopping.reactbd.com/static/media/bestSellerTwo.c2641a76c189fcc71670.webp"
-				title="Backpack"
-				descrption="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+				// title="Backpack"
+				descrption="Lorem ipsum "
 				price={120.00}
+				btnstate={0}
 			/>
 
 			</div>
