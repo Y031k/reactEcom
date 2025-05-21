@@ -2,8 +2,8 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './main.css';
 import Product from './components/productCard/Product.tsx';
-import Categories  from './components/categories/categories.tsx';
-import Button from './components/button/button.tsx';
+// import Categories  from './components/categories/categories.tsx';
+// import Button from './components/button/button.tsx';
 
 
 createRoot(document.getElementById('root')!).render(
@@ -19,13 +19,17 @@ createRoot(document.getElementById('root')!).render(
 			</div>
 			<div className="main">	
 			<div className="wrapper">
+
 			<Product
 				imgsrc="https://orebishopping.reactbd.com/static/media/spfFour.d005441cba54d7214bf7.webp"
 				title="Sun glasses"
 				descrption="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
 				price={200.00}
+				ButtonType='primary'
+				ButtonSize='lg'
+				ButtonText='Add to cart'
 			/>
-			
+
 			<Product
 				imgsrc="https://orebishopping.reactbd.com/static/media/newArrFour.b8a5fda6839f2f0b1eaa.webp"
 				// title="Funny Toy"
@@ -40,7 +44,7 @@ createRoot(document.getElementById('root')!).render(
 			/>
 
 			</div>
-
+		<></>
 		<div className="footer">
 			{/* <div className="menu">
 					<h3 className="title">Primary buttons</h3>

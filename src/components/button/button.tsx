@@ -13,7 +13,7 @@ function Button({type, size, text}: ButtonProps) {
 		const classes = [
 			style.btn,
 			style[type || 'primary'],
-			style[size || 'md']
+			style[size || 'lg']
 		]
 		.join(' ');
 
